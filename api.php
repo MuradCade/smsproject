@@ -31,8 +31,9 @@ $messages = new SmsTextualMessage(
 $response = $api->sendSmsMessage($request);
 
 
-echo "message sent";
-
+echo "message sent Sucessfully";
+echo "<br>";
+echo"<a href='index.php'>Go Back</a>";
 
 
 
